@@ -6,8 +6,10 @@
     "hidden_netclasses": [],
     "hidden_nets": [
       "+5V",
+      "GND",
       "+3.3V",
       "+3.3VA",
+      "GNDA",
       "+VCCIO_FTDI",
       "VBUS"
     ],

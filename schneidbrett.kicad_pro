@@ -424,14 +424,376 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Audio",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Controller",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Generator",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "JTAG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "net_colors": {
+      "+3.3V": "rgb(100, 0, 0)"
+    },
+    "netclass_assignments": {
+      "/Analog/AUDIO_BYPASS": "Audio",
+      "/Analog/AUDIO_GND_STARPOINT": "Audio",
+      "/Analog/AUDIO_PWR_JUNCTION": "Audio",
+      "/Analog/GEN_CAP": "Generator",
+      "/Analog/GEN_COMP": "Generator",
+      "/Analog/GEN_MCLK": "Generator",
+      "/Connectors/JTAG_NSRST_INNER": "JTAG",
+      "/Connectors/JTAG_NTRST_INNER": "JTAG",
+      "/Connectors/USB_CC1": "USB",
+      "/Connectors/USB_CC12": "USB",
+      "/Controller/GPIO_LED_1_JUNCTION": "Generator",
+      "/Controller/GPIO_LED_2_JUNCTION": "Generator",
+      "/Controller/MCU_BOOT0": "Controller",
+      "/Controller/MCU_CRYSTAL_3": "Generator",
+      "/Controller/MCU_PDR_ON": "Controller",
+      "/Controller/MCU_VBAT": "Controller",
+      "/Controller/MCU_VDDSDMMC": "Controller",
+      "/Controller/MCU_VDDUSB": "Controller",
+      "/Peripherals/FTDI_CBUS1": "UART",
+      "/Peripherals/FTDI_CBUS2": "UART",
+      "/Peripherals/FTDI_LED1": "UART",
+      "/Peripherals/FTDI_LED2": "UART",
+      "/Power Supply/POWER_SET_TERMINAL": "Power",
+      "FTDI_UART_RX": "UART",
+      "FTDI_UART_TX": "UART",
+      "FTDI_USBDM": "UART",
+      "FTDI_USBDP": "UART",
+      "GEN_SPI_CLK": "Generator",
+      "GEN_SPI_CSEL": "Generator",
+      "GEN_SPI_DATA": "Generator"
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "Audio_In"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_Out_Left_Filtered"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_In_GND"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_In_Right"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_In_Left"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_Out_GND"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_Out_Right_Filtered"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USBM"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USBP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "FTDI_USBDM"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "FTDI_USBDP"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "FTDI_UART_RX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "FTDI_UART_TX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "MCU_UART_RX"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "JTAG_NTRST"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "JTAG_TDO"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "JTAG_TDI"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "JTAG_TCK"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "JTAG_TMS"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "JTAG_NSRST"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_Shutdown"
+      },
+      {
+        "netclass": "Generator",
+        "pattern": "GEN_SPI_CLK"
+      },
+      {
+        "netclass": "Generator",
+        "pattern": "GEN_SPI_DATA"
+      },
+      {
+        "netclass": "Generator",
+        "pattern": "GEN_SPI_CSEL"
+      },
+      {
+        "netclass": "Generator",
+        "pattern": "GEN_WAVEFORM"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "+VCCIO_FTDI"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3.3VA"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GNDA"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "MCU_UART_RTS"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "MCU_UART_CTS"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "MCU_UART_TX"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_In_Left_Filtered"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_In_Right_Filtered"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_Out_Right"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_Out_Left"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_Out_Left_MCU"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "Audio_Out_Right_MCU"
+      },
+      {
+        "netclass": "Controller",
+        "pattern": "GPIO_BTN_2"
+      },
+      {
+        "netclass": "Controller",
+        "pattern": "GPIO_BTN_1"
+      },
+      {
+        "netclass": "Controller",
+        "pattern": "GPIO_LED_1"
+      },
+      {
+        "netclass": "Controller",
+        "pattern": "GPIO_LED_2"
+      },
+      {
+        "netclass": "Controller",
+        "pattern": "MCU_CRYSTAL_PH0"
+      },
+      {
+        "netclass": "Controller",
+        "pattern": "MCU_CRYSTAL_PH1"
+      },
+      {
+        "netclass": "Generator",
+        "pattern": "GEN_REFCLK"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

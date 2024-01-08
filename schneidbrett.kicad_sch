@@ -172,11 +172,6 @@
     (uuid 87757b70-4255-477e-9f5c-8ce5dc9a6428)
   )
 
-  (text "TODO: Fiducials\nTODO: Some cool symbols\nTODO: My name\nTODO: Mounting holes\nTODO: Testpoint @ sinus gen\n"
-    (at 25.4 96.52 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 25f30552-cb31-42c3-bd71-3fa071a45fa4)
-  )
   (text "Meta" (at 229.87 80.01 0)
     (effects (font (size 2 2) (thickness 0.254) bold (color 100 100 100 1)) (justify left bottom))
     (uuid 48693ab2-4efd-40ae-acb2-e149ccbbab1e)
@@ -187,7 +182,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 257.81 107.95 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 029bf919-cf7a-4744-85c7-4776838a9d31)
     (property "Reference" "H3" (at 261.62 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -243,7 +238,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 257.81 82.55 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bc12a3a-030a-42a1-8f16-29e041fe2b31)
     (property "Reference" "H1" (at 261.62 81.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -268,7 +263,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 234.95 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d5a7875-b1b7-4565-9522-7c152d56e3a5)
     (property "Reference" "FID3" (at 237.49 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -292,7 +287,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 234.95 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 710430b7-b38d-4257-a73b-686c278d9e55)
     (property "Reference" "FID2" (at 237.49 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -316,7 +311,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 234.95 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e422fdb8-8773-404d-9b03-c6277432a935)
     (property "Reference" "FID1" (at 237.49 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -340,7 +335,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 257.81 95.25 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edc50ade-f58e-4acd-b6f3-25e96aef4170)
     (property "Reference" "H2" (at 261.62 93.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -365,7 +360,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 257.81 120.65 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe8c2f37-bbdb-41e2-99d5-938c8aaad90b)
     (property "Reference" "H4" (at 261.62 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
