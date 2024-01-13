@@ -178,15 +178,18 @@
   },
   "erc": {
     "erc_exclusions": [
+      "duplicate_reference|406400|1003300|9eadeb26-6f8c-455d-b11f-c696f544e643|0a45fe78-41b1-4727-adb8-ffd3194ecccd|||",
+      "multiple_net_names|2032000|635000|e1586ebc-7871-48a7-b3d7-53bda8f37a40|2d3dcec4-0ac5-4f8d-b9d9-a2269d7af049|||",
+      "pin_to_pin|1384300|1778000|57335728-0b8d-4cd0-9ee5-61d2c88ef0df|411c61e2-2f55-4d54-84b0-9f26ee58ae86|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/88b5b5f9-c416-4523-9e04-323b913d1bb0",
+      "pin_to_pin|1955800|609600|f594d894-f87c-4af4-8ab8-8c34ac16a32e|411c61e2-2f55-4d54-84b0-9f26ee58ae86|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/88b5b5f9-c416-4523-9e04-323b913d1bb0",
+      "pin_to_pin|1955800|609600|f594d894-f87c-4af4-8ab8-8c34ac16a32e|57335728-0b8d-4cd0-9ee5-61d2c88ef0df|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e",
       "power_pin_not_driven|1003300|444500|1000fcaf-a27e-4cf8-8187-7572b86c77a3|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|1879600|609600|43046a7d-771b-4a9b-a3ad-4d9ac7e9a86c|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|2006600|495300|d63b0789-a465-4488-a265-8ecda08355af|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2184400|609600|5cac8ce7-a548-4eea-aad6-7b7e86eee7a2|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2209800|609600|8b444093-4f39-4004-ab40-e1fe5560113f|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2006600|609600|43046a7d-771b-4a9b-a3ad-4d9ac7e9a86c|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2311400|609600|5cac8ce7-a548-4eea-aad6-7b7e86eee7a2|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2336800|609600|8b444093-4f39-4004-ab40-e1fe5560113f|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|342900|368300|b83aa7a9-5b40-4b78-b443-3229f008171b|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|571500|1346200|c9cadcaf-3958-4d6f-bd88-729020386463|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|825500|381000|ddbe89c8-1a41-480f-a457-1b7369fe70e3|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|927100|482600|03ed2a98-8658-41aa-8815-d2aa54367752|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|952500|444500|ac591f5d-f81d-4168-a5d8-8372d446899e|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
@@ -388,7 +391,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -502,6 +505,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "JTAG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -543,23 +563,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -594,204 +597,54 @@
       "/Power Supply/POWER_SET_TERMINAL": "Power",
       "FTDI_UART_RX": "UART",
       "FTDI_UART_TX": "UART",
-      "FTDI_USBDM": "UART",
-      "FTDI_USBDP": "UART",
       "GEN_SPI_CLK": "Generator",
       "GEN_SPI_CSEL": "Generator",
       "GEN_SPI_DATA": "Generator"
     },
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "Audio_In"
+        "netclass": "Generator",
+        "pattern": "GEN*"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "JTAG*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "FTDI*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "USB*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "MCU_UART*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "MCU_I2C*"
       },
       {
         "netclass": "Audio",
-        "pattern": "Audio_Out_Left_Filtered"
+        "pattern": "Audio*"
       },
       {
-        "netclass": "Audio",
-        "pattern": "Audio_In_GND"
+        "netclass": "Controller",
+        "pattern": "GPIO*"
       },
       {
-        "netclass": "Audio",
-        "pattern": "Audio_In_Right"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_In_Left"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_Out_GND"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_Out_Right_Filtered"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USBM"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USBP"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "FTDI_USBDM"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "FTDI_USBDP"
+        "netclass": "Controller",
+        "pattern": "MCU_CRYSTAL_*"
       },
       {
         "netclass": "Ground",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "FTDI_UART_RX"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "FTDI_UART_TX"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "MCU_UART_RX"
-      },
-      {
-        "netclass": "JTAG",
-        "pattern": "JTAG_NTRST"
-      },
-      {
-        "netclass": "JTAG",
-        "pattern": "JTAG_TDO"
-      },
-      {
-        "netclass": "JTAG",
-        "pattern": "JTAG_TDI"
-      },
-      {
-        "netclass": "JTAG",
-        "pattern": "JTAG_TCK"
-      },
-      {
-        "netclass": "JTAG",
-        "pattern": "JTAG_TMS"
-      },
-      {
-        "netclass": "JTAG",
-        "pattern": "JTAG_NSRST"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_Shutdown"
-      },
-      {
-        "netclass": "Generator",
-        "pattern": "GEN_SPI_CLK"
-      },
-      {
-        "netclass": "Generator",
-        "pattern": "GEN_SPI_DATA"
-      },
-      {
-        "netclass": "Generator",
-        "pattern": "GEN_SPI_CSEL"
-      },
-      {
-        "netclass": "Generator",
-        "pattern": "GEN_WAVEFORM"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "+VCCIO_FTDI"
+        "pattern": "GND*"
       },
       {
         "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+3.3VA"
-      },
-      {
-        "netclass": "Ground",
-        "pattern": "GNDA"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "MCU_UART_RTS"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "MCU_UART_CTS"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "MCU_UART_TX"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_In_Left_Filtered"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_In_Right_Filtered"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_Out_Right"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_Out_Left"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_Out_Left_MCU"
-      },
-      {
-        "netclass": "Audio",
-        "pattern": "Audio_Out_Right_MCU"
-      },
-      {
-        "netclass": "Controller",
-        "pattern": "GPIO_BTN_2"
-      },
-      {
-        "netclass": "Controller",
-        "pattern": "GPIO_BTN_1"
-      },
-      {
-        "netclass": "Controller",
-        "pattern": "GPIO_LED_1"
-      },
-      {
-        "netclass": "Controller",
-        "pattern": "GPIO_LED_2"
-      },
-      {
-        "netclass": "Controller",
-        "pattern": "MCU_CRYSTAL_PH0"
-      },
-      {
-        "netclass": "Controller",
-        "pattern": "MCU_CRYSTAL_PH1"
-      },
-      {
-        "netclass": "Generator",
-        "pattern": "GEN_REFCLK"
+        "pattern": "+*"
       }
     ]
   },

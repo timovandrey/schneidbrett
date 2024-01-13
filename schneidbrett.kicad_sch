@@ -196,6 +196,12 @@
     (property "Datasheet" "~" (at 257.81 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Distributor Link" "" (at 257.81 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "" (at 257.81 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 91051aae-7f2f-4079-b084-64ca7d51daac))
     (instances
       (project "schneidbrett"
@@ -252,6 +258,12 @@
     (property "Datasheet" "~" (at 257.81 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Distributor Link" "" (at 257.81 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "" (at 257.81 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f0d1a3bd-9453-4ec2-a404-51010d7c4733))
     (instances
       (project "schneidbrett"
@@ -275,6 +287,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Distributor Link" "" (at 234.95 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "" (at 234.95 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -301,6 +319,12 @@
     (property "Datasheet" "~" (at 234.95 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Distributor Link" "" (at 234.95 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "" (at 234.95 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "schneidbrett"
         (path "/c05974a1-d9e7-44bd-b1f3-81c4ede4353c"
@@ -323,6 +347,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Distributor Link" "" (at 234.95 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "" (at 234.95 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -349,6 +379,12 @@
     (property "Datasheet" "~" (at 257.81 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Distributor Link" "" (at 257.81 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "" (at 257.81 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8454872e-391d-4496-aac1-0923feca4429))
     (instances
       (project "schneidbrett"
@@ -372,6 +408,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Distributor Link" "" (at 257.81 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "" (at 257.81 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 61834b36-ad3f-4a73-8f57-bcae3bc7f6d9))
