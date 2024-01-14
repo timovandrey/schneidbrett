@@ -921,6 +921,13 @@
     (uuid f57694eb-84b4-450e-aa33-0a001fe3447c)
   )
 
+  (label "POWER_LED" (at 158.75 49.53 0) (fields_autoplaced)
+    (effects (font (size 0.5 0.5)) (justify left bottom))
+    (uuid 5e7df1a4-4619-4362-a042-372e2b10743b)
+    (property "Netclass" "Power" (at 158.75 50.03 0)
+      (effects (font (size 0.5 0.5) italic) (justify left))
+    )
+  )
   (label "POWER_SET_TERMINAL" (at 106.68 49.53 0) (fields_autoplaced)
     (effects (font (size 0.5 0.5)) (justify left bottom))
     (uuid 84ac73c8-dcc7-45db-9191-87ba08075376)
@@ -1106,8 +1113,8 @@
     (property "Manufacturer" "" (at 118.11 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2e37dd4-177b-4dde-8214-dfe780124143))
-    (pin "2" (uuid 5d6deed8-731b-4195-99d0-ad09101734d8))
+    (pin "1" (uuid aed26563-8449-4e0d-bcd4-a8d401b1b66f))
+    (pin "2" (uuid 615f7437-2e71-4daa-95f0-48993fd5b06f))
     (instances
       (project "schneidbrett"
         (path "/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/86ba3294-cf4a-47ab-b34c-9be2b0ce2123"
@@ -1262,14 +1269,14 @@
     (property "Manufacturer" "Analog Devices / Maxim Integrated" (at 92.71 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ddbe89c8-1a41-480f-a457-1b7369fe70e3))
-    (pin "2" (uuid 434ea111-5fe9-4789-aa9b-ec97c1008d66))
-    (pin "3" (uuid f7caef7e-90de-4ea3-9de2-c7b919a9bedd))
-    (pin "4" (uuid 6d845e9c-399c-4d54-b1ad-f61ccee47da3))
-    (pin "5" (uuid 5beac356-d794-432e-9195-c709eb17888a))
-    (pin "6" (uuid 351e95c9-cfe5-46bc-bff5-ccd5afbaf25f))
-    (pin "7" (uuid 03ed2a98-8658-41aa-8815-d2aa54367752))
-    (pin "8" (uuid 99373834-8315-4757-97b5-5d07bcc4fb1a))
+    (pin "1" (uuid 0166a166-71a4-41e0-92b5-14b54ec10baa))
+    (pin "2" (uuid e2729fc9-507b-4804-8780-ea6e6f6841b0))
+    (pin "3" (uuid d66df7b2-c60c-4644-a271-cc3c90619739))
+    (pin "4" (uuid 513bc5f4-a4d9-4085-99eb-808cd03a6bed))
+    (pin "5" (uuid 64d44f38-ef1b-4ce1-b52d-4167afd5dde6))
+    (pin "6" (uuid 7c7ab1bf-1c75-4612-8189-5d9cab9d5faf))
+    (pin "7" (uuid a6578a68-23d9-467c-a8cc-761b526f7b6d))
+    (pin "8" (uuid d0b6314e-d971-4021-98f6-8ed8de37a125))
     (instances
       (project "schneidbrett"
         (path "/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/86ba3294-cf4a-47ab-b34c-9be2b0ce2123"

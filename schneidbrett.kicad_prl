@@ -1,9 +1,12 @@
 {
   "board": {
-    "active_layer": 36,
+    "active_layer": 0,
     "active_layer_preset": "All Layers",
-    "auto_track_width": true,
-    "hidden_netclasses": [],
+    "auto_track_width": false,
+    "hidden_netclasses": [
+      "Ground",
+      "Power"
+    ],
     "hidden_nets": [
       "+5V",
       "GND",
@@ -11,10 +14,12 @@
       "+3.3VA",
       "USB+",
       "+VCCIO_FTDI",
-      "VBUS"
+      "VBUS",
+      "/Power Supply/POWER_SET_TERMINAL",
+      "/Power Supply/POWER_LED"
     ],
     "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
       "pads": 1.0,

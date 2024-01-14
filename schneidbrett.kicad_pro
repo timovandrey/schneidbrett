@@ -48,7 +48,18 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.22,
+          "via_gap": 0.5,
+          "width": 0.17
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -105,24 +116,24 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.26,
+        "min_hole_to_hole": 0.26,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.65,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.125,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -165,8 +176,32 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.17,
+        0.2,
+        0.3,
+        0.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -438,7 +473,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Audio",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 246, 28)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -455,7 +490,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Controller",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(20, 255, 28)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -472,7 +507,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Generator",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 176, 26)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -489,7 +524,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Ground",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(77, 90, 138)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -506,7 +541,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(84, 251, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -523,7 +558,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "JTAG",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 86, 236)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -540,7 +575,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 8, 35)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -557,7 +592,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "UART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(161, 64, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -581,7 +616,8 @@
       "/Connectors/JTAG_NSRST_INNER": "JTAG",
       "/Connectors/JTAG_NTRST_INNER": "JTAG",
       "/Connectors/USB_CC1": "USB",
-      "/Connectors/USB_CC12": "USB",
+      "/Connectors/USB_CC2": "USB",
+      "/Connectors/USB_SHIELDING": "USB",
       "/Controller/GPIO_LED_1_JUNCTION": "Generator",
       "/Controller/GPIO_LED_2_JUNCTION": "Generator",
       "/Controller/MCU_BOOT0": "Controller",
@@ -594,6 +630,7 @@
       "/Peripherals/FTDI_CBUS2": "UART",
       "/Peripherals/FTDI_LED1": "UART",
       "/Peripherals/FTDI_LED2": "UART",
+      "/Power Supply/POWER_LED": "Power",
       "/Power Supply/POWER_SET_TERMINAL": "Power",
       "FTDI_UART_RX": "UART",
       "FTDI_UART_TX": "UART",
