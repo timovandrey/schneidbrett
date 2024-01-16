@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.2,
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -630,7 +630,8 @@
       "/Peripherals/FTDI_CBUS2": "UART",
       "/Peripherals/FTDI_LED1": "UART",
       "/Peripherals/FTDI_LED2": "UART",
-      "/Power Supply/POWER_LED": "Power",
+      "/Power Supply/POWER_LED_3V3": "Power",
+      "/Power Supply/POWER_LED_5V": "Power",
       "/Power Supply/POWER_SET_TERMINAL": "Power",
       "FTDI_UART_RX": "UART",
       "FTDI_UART_TX": "UART",
