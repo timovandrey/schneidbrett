@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -182,7 +182,8 @@
         0.17,
         0.2,
         0.3,
-        0.5
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -212,21 +213,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "duplicate_reference|406400|1003300|9eadeb26-6f8c-455d-b11f-c696f544e643|0a45fe78-41b1-4727-adb8-ffd3194ecccd|||",
-      "multiple_net_names|2032000|635000|e1586ebc-7871-48a7-b3d7-53bda8f37a40|2d3dcec4-0ac5-4f8d-b9d9-a2269d7af049|||",
-      "pin_to_pin|1384300|1778000|57335728-0b8d-4cd0-9ee5-61d2c88ef0df|411c61e2-2f55-4d54-84b0-9f26ee58ae86|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/88b5b5f9-c416-4523-9e04-323b913d1bb0",
-      "pin_to_pin|1955800|609600|f594d894-f87c-4af4-8ab8-8c34ac16a32e|411c61e2-2f55-4d54-84b0-9f26ee58ae86|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/88b5b5f9-c416-4523-9e04-323b913d1bb0",
-      "pin_to_pin|1955800|609600|f594d894-f87c-4af4-8ab8-8c34ac16a32e|57335728-0b8d-4cd0-9ee5-61d2c88ef0df|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e|/c05974a1-d9e7-44bd-b1f3-81c4ede4353c/da9dc77a-338b-4041-8f25-64336dd43b9e",
-      "power_pin_not_driven|1003300|444500|1000fcaf-a27e-4cf8-8187-7572b86c77a3|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2006600|495300|d63b0789-a465-4488-a265-8ecda08355af|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2006600|609600|43046a7d-771b-4a9b-a3ad-4d9ac7e9a86c|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2311400|609600|5cac8ce7-a548-4eea-aad6-7b7e86eee7a2|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2336800|609600|8b444093-4f39-4004-ab40-e1fe5560113f|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|342900|368300|b83aa7a9-5b40-4b78-b443-3229f008171b|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|825500|381000|ddbe89c8-1a41-480f-a457-1b7369fe70e3|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|952500|444500|ac591f5d-f81d-4168-a5d8-8372d446899e|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -603,12 +590,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "+3.3V": "rgb(100, 0, 0)"
-    },
+    "net_colors": null,
     "netclass_assignments": {
       "/Analog/AUDIO_BYPASS": "Audio",
-      "/Analog/AUDIO_GND_STARPOINT": "Audio",
       "/Analog/AUDIO_PWR_JUNCTION": "Audio",
       "/Analog/GEN_CAP": "Generator",
       "/Analog/GEN_COMP": "Generator",
