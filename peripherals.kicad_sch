@@ -833,7 +833,7 @@
     (property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm" (at 137.16 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" (at 102.87 77.47 0)
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/163/DS_FT230X-5395.pdf" (at 102.87 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Distributor Link" "https://www.mouser.de/ProductDetail/FTDI/FT230XQ-R?qs=Gp1Yz1mis3VvmXwyDmIHOg%3D%3D" (at 102.87 77.47 0)
